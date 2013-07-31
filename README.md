@@ -28,7 +28,7 @@ Now, import the compiled tess-two into Eclipse and add it to AndrOCR as a Librar
 
 How to contribute
 -
-I don't have much time to work on this project. If you like to help me, you're welcome.
+I don't have much time to work on this project. If you like to help me, you're welcome. Just send me a Pull Request.
 
 
 License
