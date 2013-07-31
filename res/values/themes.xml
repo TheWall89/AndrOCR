@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <!-- Any customizations for your app running on pre-3.0 devices here -->
+    </style>
+    
+    <style name="BarTheme" parent="@android:style/ButtonBar">
+        <!-- Any customizations for your app running on pre-3.0 devices here -->
+    </style>
+</resources>

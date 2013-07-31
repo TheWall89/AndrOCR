@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <!-- Various --> 
+    <string name="hello">Ciao Mondo, AndrOCR!</string>    
+    <string name="about">Informazioni</string>
+    <string name="rate">Valuta App</string>
+    <string name="calcpro">Calcolatrice Pro</string>
+    <string name="about_text">Un\'applicazione Android che fa uso del motore OCR Tesseract.\nVersione 1.8b\nCreata da Matteo Pergolesi</string>    
+    <string name="app_name">AndrOCR</string>
+    
+    <!-- Buttons -->
+    <string name="ok">OK</string>
+    <string name="cancel">Annulla</string>
+    <string name="yes">Sì</string>
+    <string name="no">No</string> 
+    <string name="from_camera">Fotocamera</string>
+    <string name="from_gallery">Galleria</string>
+    <string name="start_ocr">Inizia OCR</string>    
+    <string name="rotate_right">Ruota a destra</string>
+    <string name="rotate_left">Ruota a sinistra</string>    
+    <string name="rewrite">Riscrivi</string>
+    <string name="newimage">Nuova\nImmagine</string>
+    <string name="tts">TTS</string>
+    <string name="maps">Mappe</string>
+    <string name="translate">Traduci</string>
+    <string name="stop">Stop</string>
+    <string name="save">Salva su file</string>    
+    
+    <!-- Error Messages | Toast Messages -->
+    <string name="sd_error">SD non montata o in sola lettura.</string>
+    <string name="camera_error">Nessuna immagine dalla fotocamera. Riprova.</string>
+    <string name="gallery_error">Nessuna immagine dalla galleria. Riprova.</string>
+    <string name="network_error">È necessaria una connessione a internet per scaricare questa lingua.</string>
+    <string name="ocr_error">OCR fallito. Per favore, assicurati di aver scaricato i file delle lingue e riprova.</string>
+    <string name="translate_error">Traduzione fallita. Controlla la tua connessione internet o riprova più tardi.</string> 
+    <string name="extraction_error">Estrazione del file fallita. Riprova.</string>
+    <string name="language_error">Lingua non disponibile. TTS annullato.</string>
+    <string name="maps_error">Il servizio Mappe non è disponibile. Per favore riprova più tardi.</string> 
+    <string name="tts_message">È necessario scaricare altri contenuti per usare il TTS. Desideri farlo ora?</string>   
+    <string name="tts_install_error">Impossibile installare i conenuti del TTS. Il TTS non è disponibile.</string>
+    <string name="copy_error">Impossibile copiare l\'immagine sulla SD. Per favore, riprovare.</string>
+    <string name="file_saved">Testo salvato in&#160;</string>
+    
+    <!--Messages -->
+    <string name="selected_language">Lingua:</string>
+    <string name="selected_text_layout">Disposizione del testo:</string>
+    <string name="info">Scegli un\'immagine da&#8230;</string>
+    <string name="info2">Questo è il tuo testo:</string>
+    <string name="info3">Sei sicuro di voler scaricare questa lingua?\n(il file potrebbe essere molto grande)</string>
+    <string name="info4">Premi a lungo sul testo per copiarlo negli appunti</string>    
+    <string name="hint">Hai cancellato il tuo testo! Per favore, premi Riscrivi!</string>
+    
+    
+    <!-- Page Segmentation Modes -->    
+    <string name="PSM_AUTO">Automatico</string>    
+    <string name="PSM_SINGLE_LINE">Unica riga</string>
+    <string name="PSM_SINGLE_WORD">Unica parola</string>
+    <string name="PSM_SINGLE_CHAR">Unico carattere</string>
+    <string name="PSM_SINGLE_BLOCK">Unico blocco</string>
+    <string name="PSM_SINGLE_BLOCK_VERT_TEXT">Unico blocco in verticale</string>
+    
+    <!-- Languages -->    
+    <string name="english">Inglese</string>
+    <string name="bulgarian">Bulgaro</string>
+    <string name="catalan">Catalano</string>
+    <string name="czech">Ceco</string>
+    <string name="chinese">Cinese</string>
+    <string name="chinese_tra">Cinese (Tradizionale)</string>
+    <string name="cherokee">Cherokee</string>
+    <string name="danish">Danese</string>
+    <string name="danish_frak">Danese (Fraktur)</string>
+    <string name="german">Tedesco</string>
+    <string name="german_frak">Tedesco (Fraktur)</string>
+    <string name="greek">Greco</string>
+    <string name="finnish">Finlandese</string>
+    <string name="french">Francese</string>
+    <string name="hebrew">Ebraico</string>
+    <string name="hungarian">Ungaro</string>
+    <string name="indonesian">Indonesiano</string>
+    <string name="italian">Italiano</string>
+    <string name="japanese">Giapponese</string>
+    <string name="korean">Coreano</string>
+    <string name="latvian">Lettone</string>
+    <string name="lithuanian">Lituano</string>
+    <string name="dutch">Olandese</string>
+    <string name="norwegian">Norvegese</string>
+    <string name="polish">Polacco</string>
+    <string name="portuguese">Portoghese</string>
+    <string name="romanian">Rumeno</string>
+    <string name="russian">Russo</string>
+    <string name="slovakian">Slovacco</string>
+    <string name="slovenian">Sloveno</string>
+    <string name="spanish">Spagnolo</string>
+    <string name="serbian">Serbo</string>
+    <string name="swedish">Svedese</string>
+    <string name="swedish_frak">Svedese (Fraktur)</string>
+    <string name="tagalog">Tagalog</string>
+    <string name="turkish">Turco</string>
+    <string name="ukrainian">Ucraino</string>
+    <string name="vietnamese">Vietnamita</string>    
+    
+    <!-- Content Descriptions --> 
+    <string name="logo">Benvenuto in andro c r</string>
+    <string name="picked_image">Picked Image from Source</string>
+        
+    <!-- Dialog Titles -->
+    <string name="text_layout">Disposizione del testo</string>
+    <string name="language">Lingua</string>    
+    <string name="translate_to">Traduci in</string>    
+    <string name="error">Errore</string>    
+    <string name="tts_download">Download contenuti TTS</string>
+    <string name="language_download">Download file della lingua&#8230;</string>
+    <string name="please_wait">Attendere prego&#8230;</string>  
+    <string name="select_picture">Seleziona immagine</string>
+    <string name="crop_picture">Ritaglia immagine</string>
+    <string name="download">Download</string>
+    
+</resources>

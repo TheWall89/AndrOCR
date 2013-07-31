@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"    
+    android:orientation="vertical" >
+	
+    <LinearLayout
+        android:id="@+id/button_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/holo_background_dark"
+        style="@android:style/ButtonBar"> 
+        
+    	<Button
+    	    style="@android:style/ButtonBar"
+    	    android:id="@+id/button_cancel"    	        	    
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginRight="5dp"        	      	        	
+        	android:background="@drawable/cancel_anim"              	
+       		android:onClick="onCancel"
+       		android:contentDescription="@string/cancel"
+        />    	
+    	
+    	<Button
+    	    style="@android:style/ButtonBar" 
+        	android:id="@+id/button_ocr"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="5dp"        	        	        	
+        	android:background="@drawable/accept_anim"        	        	
+        	android:onClick="onSave"        	
+        />    	
+    	
+	</LinearLayout>
+    
+    <RelativeLayout
+        android:id="@+id/imageBox"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        android:layout_above="@id/button_bar"
+         >   
+       
+    <view class="com.matpergo.androcr.Cropper"        
+        android:id="@+id/cropper"
+        android:background="#55000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"                		                        
+        />
+    
+    </RelativeLayout>   
+ 
+        
+</RelativeLayout>

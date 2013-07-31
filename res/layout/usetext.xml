@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >    
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"        
+        android:cursorVisible="true"
+        android:freezesText="true"
+        android:hint="@string/hint"
+        android:inputType="textAutoCorrect|textMultiLine"
+        android:maxLines="6"               
+        android:textSize="18sp" />
+    
+    <TextView
+        android:id="@+id/info4"
+        android:layout_below="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"        
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:text="@string/info4"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:layout_below="@+id/info4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp" >
+
+        <Button
+            android:id="@+id/button_translate"
+       		android:layout_width="140dp"
+        	android:layout_height="60dp"
+        	android:maxWidth="140dp"
+            android:maxHeight="60dp"
+        	android:textSize="22sp"
+            android:text="@string/translate"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/holo_button_anim"
+        	android:textColor="@android:color/black"
+            android:onClick="onTranslate" />
+
+        <Button
+            android:id="@+id/button_rewrite"
+        	android:layout_width="140dp"
+        	android:layout_height="60dp"
+        	android:maxWidth="140dp"
+            android:maxHeight="60dp"
+        	android:textSize="22sp"
+        	android:text="@string/rewrite"
+        	android:layout_marginLeft="3dp"
+        	android:background="@drawable/holo_button_anim"
+        	android:textColor="@android:color/black"
+        	android:onClick="onRewrite"  />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" >
+
+        <Button
+            android:id="@+id/button_tts"
+        	android:layout_width="140dp"
+        	android:layout_height="60dp"
+        	android:maxWidth="140dp"
+            android:maxHeight="60dp"
+        	android:text="@string/tts"
+        	android:textSize="25sp"
+        	android:layout_marginRight="3dp"
+        	android:background="@drawable/holo_button_anim"
+        	android:textColor="@android:color/black"
+        	android:onClick="onTTS" />
+
+        <Button
+            android:id="@+id/button_maps"
+        	android:layout_width="140dp"
+        	android:layout_height="60dp"
+        	android:maxWidth="140dp"
+            android:maxHeight="60dp"
+        	android:text="@string/maps"
+        	android:textSize="25sp"
+        	android:layout_marginLeft="3dp"
+        	android:background="@drawable/holo_button_anim"
+        	android:textColor="@android:color/black"
+        	android:onClick="onMaps" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"        
+        android:layout_below="@+id/linearLayout2"
+        android:layout_centerHorizontal="true"        
+        android:layout_marginTop="10dp" >
+
+        <Button
+            android:id="@+id/button_file"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:maxWidth="140dp"
+            android:maxHeight="60dp"            
+            android:layout_marginRight="3dp"
+            android:background="@drawable/holo_button_anim"
+            android:onClick="onSaveFile"
+            android:text="@string/save"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />        
+
+    </LinearLayout>
+
+</RelativeLayout>

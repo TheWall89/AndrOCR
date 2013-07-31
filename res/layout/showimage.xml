@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"    
+    android:orientation="vertical" >
+	
+    <LinearLayout
+        android:id="@+id/button_bar"
+        style="@style/BarTheme"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/holo_background_dark"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+        
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/cancel_anim"
+            android:contentDescription="@string/cancel"
+            android:minWidth="48dip"
+            android:onClick="onCancel" />
+    	
+    	<Button
+    	    android:id="@+id/button_language"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_marginLeft="2dp"
+    	    android:layout_marginRight="2dp"
+    	    android:background="@drawable/language_anim"
+    	    android:contentDescription="@string/language"
+    	    android:minWidth="48dip"
+    	    android:onClick="changeLanguage" />
+    	
+    	<Button
+    	    android:id="@+id/button_segmode"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_marginLeft="2dp"
+    	    android:layout_marginRight="2dp"
+    	    android:background="@drawable/psm_anim"
+    	    android:contentDescription="@string/text_layout"
+    	    android:minWidth="48dip"
+    	    android:onClick="changeSegMode" />
+    	
+    	<Button
+    	    android:id="@+id/button_ocr"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_marginLeft="2dp"
+    	    android:background="@drawable/accept_anim"
+    	    android:contentDescription="@string/start_ocr"
+    	    android:minWidth="48dip"
+    	    android:onClick="startOCR" />
+    	
+	</LinearLayout>
+    
+    <RelativeLayout
+        android:id="@+id/image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        android:layout_above="@id/button_bar"
+         >
+    
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"                        
+        android:contentDescription="@string/picked_image" />   
+    
+    </RelativeLayout>           
+</RelativeLayout>
